@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+
+        /* * {
+  box-sizing: border-box;
+} */
+
+
+        /* nav-bar */
+        .navbar-light .navbar-brand {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(29, 189, 189);
+        }
+
+
+        body {
+            font-family: serif;
+            color: rgb(29, 189, 189);
+            background-image: url("..assets/images/bg-pg.png");
+        }
+
+        h2 {
+            line-height: 2;
+            font-size: 1.5rem;
+            font-weight: 600;
+            border-bottom: .01px solid gray;
+        
+
+        }
+
+        #text-image-main{
+         position: relative;
+         bottom: 40px;
+         background-color: aqua;
+         color: white;
+         /* width: 100%; */
+
+        }
+
+        .image-main{
+            position: relative;
+            width: 100%;
+        } 
+
+        .container{
+            background-color: whitesmoke;
+        }
+
+
+     @media screen and (max-width: 980px) {
+
+           #image-position{
+              display: block;
+              width: 200%;
+              margin-right: 20px;
+           }
+
+        .container {
+           max-width: 50%;
+           margin-top: 40px;
+           margin-bottom: 50px;
+            
+        }
+ } 
+
+ @media screen and (max-width: 768px) {
+
+     #image-position{
+              display: flex;
+              width: 100%;
+              margin-right: 20px;
+           }
+
+        .container {
+           max-width: 50%;
+           margin-top: 40px;
+           margin-bottom: 50px;
+            
+        }      
+ }
+
+ @media screen and (max-width: 640px) {
+
+     #image-position{
+              display: block;
+              width: 200%;
+              margin-left: 0px;
+              margin-right: 0px;
+              
+           }
+
+        .container {
+         max-width: 0%;
+           margin-top: 40px;
+           margin-bottom: 50px;
+            
+        }      
+
+        .navbar{
+
+            display:flex;
+
+        }
+
+        /* body{
+            text-align: center;
+        } */
+ }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Nav tag  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Daniel D. Rojas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">contact<span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Container  -->
+    <div class="container">
+        <!-- Title container -->
+        <div class="row">
+            <div class="col">
+                <h2>Portfolio</h2>
+            </div>
+
+        </div>
+
+        <!-- Main content pictures -->
+
+        <!-- First row  -->
+        <div class="row"  id="image-position">
+
+            <div id="container-main-row" class="col-sm-6">
+              <img class="image-main" src="https://www.placecage.com/c/200/200" />
+              <p id="text-image-main">row n1</p>
+            
+            </div>
+
+            <div class="col-sm-6">
+                <img class="image-main" src="https://www.placecage.com/c/200/200" />
+                <h6 id="text-image-main"> row 1hr</h6>
+
+
+            </div>       
+        </div>
+
+        <!-- Second row  -->
+        <div class="row" id="image-position">
+            <div class="col-sm-6">
+                <img class="image-main" src="https://www.placecage.com/c/200/200" />
+                <h6 id="text-image-main" >row 2</h6>
+            </div>
+
+            <div class="col-sm-6">
+                <img class="image-main" src="https://www.placecage.com/c/200/200" />
+                <h6 id="text-image-main" >row 2</h6>   
+            </div>
+        </div>
+
+           <!-- Third row -->
+        <div class="row=" id="image-position">
+            <div class="col-sm-6">
+                <img class="image-main" src=https://www.placecage.com/c/200/200" />
+                <h6 id="text-image-main">row 3</h6>
+            </div>            
+        </div>
+
+    </div>
+
+</body>
+
+</html>
