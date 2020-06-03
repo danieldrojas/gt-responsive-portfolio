@@ -1,14 +1,17 @@
+ /* nav-bar */
+        .navbar-light .navbar-brand {
+            color: white;
+        }
 
         a {
             text-decoration: none;
             background-color: rgb(29, 189, 189);
         }
 
-
         body {
             font-family: serif;
             color: rgb(29, 189, 189);
-            background-image: url("..assets/images/bg-pg.png");
+            background-image: url("../images/bg-pp.png");
         }
 
         h2 {
@@ -82,9 +85,11 @@
            }
 
         .container {
-         max-width: 90%;
+         max-width: 50%;
            margin-top: 40px;
            margin-bottom: 50px;
+           float: left;
+           margin-left:70px;
             
         }      
 
@@ -97,8 +102,6 @@
         /* body{
             text-align: center;
         } */
-
-           .navbar-light .navbar-brand {
-            color: white;
-        }
  }
+
+ 
