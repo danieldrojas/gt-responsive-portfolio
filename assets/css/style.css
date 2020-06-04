@@ -41,8 +41,22 @@
             background-color: whitesmoke;
         }
 
+        .container #container-index{
+        }
+            
+            
+
+
 
      @media screen and (max-width: 980px) {
+
+
+        .container #container-index{
+            margin-top: 100px;
+            max-width: 650px;
+                height: 800px;
+             margin-top: 50px;
+        }
 
            #image-position{
               display: block;
