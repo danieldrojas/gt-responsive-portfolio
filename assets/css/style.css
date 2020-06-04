@@ -1,31 +1,47 @@
+ /* nav-bar */
+        .navbar-light .navbar-brand {
+            color: white;
+            
+        }
 
         a {
             text-decoration: none;
-            background-color: rgb(29, 189, 189);
+            background-color: #13a2a2;
         }
-
 
         body {
             font-family: serif;
-            color: rgb(29, 189, 189);
-            background-image: url("..assets/images/bg-pg.png");
+            color: #13a2a2;
+            background-image: url("../images/bg-pp.png");
+        }
+
+        #main-text{
+            color: black;
+            float: right;
+            overflow: hidden;
+            width: 100%;
         }
 
         h2 {
+
+            color: #13a2a2;
             line-height: 2;
             font-size: 1.5rem;
             font-weight: 600;
             border-bottom: .01px solid gray;
+            
+              }
         
 
-        }
-
         #text-image-main{
-         position: relative;
+         /* position: relative; */
          bottom: 40px;
-         background-color: aqua;
+         background-color:#13a2a2;
          color: white;
-         /* width: 100%; */
+         text-align: center;
+         position: relative;
+         overflow: hidden;
+         width: 100%;
 
         }
 
@@ -36,10 +52,29 @@
 
         .container{
             background-color: whitesmoke;
+            
         }
 
+        .container #container-index{
+        }
+            
+
+     nav-index{ 
+        
+         margin-top: -30px;
+    
+
+     }
 
      @media screen and (max-width: 980px) {
+
+
+        .container #container-index{
+            margin-top: 100px;
+            max-width: 650px;
+                height: 800px;
+             margin-top: 50px;
+        }
 
            #image-position{
               display: block;
@@ -71,20 +106,24 @@
         }      
  }
 
+ 
+
  @media screen and (max-width: 640px) {
 
      #image-position{
               display: block;
-              width: 200%;
+              width: 100%;
               margin-left: 0px;
               margin-right: 0px;
               
            }
 
         .container {
-         max-width: 90%;
+         max-width: 50%;
            margin-top: 40px;
            margin-bottom: 50px;
+           float: left;
+           margin-left:70px;
             
         }      
 
@@ -97,8 +136,6 @@
         /* body{
             text-align: center;
         } */
-
-           .navbar-light .navbar-brand {
-            color: white;
-        }
  }
+
+ 
