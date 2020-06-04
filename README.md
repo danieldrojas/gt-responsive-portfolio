@@ -20,7 +20,7 @@ The present HTML web pages were build using Boostrap CSS library.
 
 [Deployed Portafolio Site](https://danieldrojas.github.io/gt-refactor-accessibility/)
 
-![About ](assets/images/about.png)
+![About ](assets/images/about-n.png)
 ![Portfolio](assets/images/portfollio.png)
 ![ Contact](assets/images/contact.png)
 
