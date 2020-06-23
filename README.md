@@ -18,10 +18,10 @@ Clone repository on local machine and run HTML file in browser.
 ## Usage 
 The present HTML web pages were build using Boostrap CSS library.
 
-[Deployed Portafolio Site](https://danieldrojas.github.io/gt-refactor-accessibility/)
+[Deployed Portafolio Site](https://danieldrojas.github.io/gt-responsive-portfolio/)
 
 ![About ](assets/images/about-n.png)
-![Portfolio](assets/images/portfollio.png)
+<!-- ![Portfolio](assets/images/portfollio.png) -->
 ![ Contact](assets/images/contact.png)
 
 ## Credits
