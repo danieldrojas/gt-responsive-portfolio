@@ -3,10 +3,14 @@
             color: white;
             
         }
+      .navbar-light .navbar-nav .nav-link {
+    color: black
+}
 
         a {
             text-decoration: none;
-            background-color: #13a2a2;
+            color: black;
+            /* background-color: #13a2a2; */
         }
 
         body {
@@ -15,11 +19,19 @@
             background-image: url("../images/bg-pp.png");
         }
 
+        p{
+            margin: 25px;
+        }
+
+      .navbar-light .navbar-brand {
+     color: black
+}
+
         #main-text{
             color: black;
-            float: right;
-            overflow: hidden;
             width: 100%;
+            display: flex;
+
         }
 
         h2 {
@@ -34,7 +46,7 @@
         
 
         #text-image-main{
-         /* position: relative; */
+         position: relative;
          bottom: 40px;
          background-color:#13a2a2;
          color: white;
@@ -48,10 +60,13 @@
         .image-main{
             position: relative;
             width: 100%;
+            padding: 30px;
         } 
 
         .container{
             background-color: whitesmoke;
+        padding: 25px;
+        margin-top: 25px;
             
         }
 
@@ -59,12 +74,6 @@
         }
             
 
-     nav-index{ 
-        
-         margin-top: -30px;
-    
-
-     }
 
      @media screen and (max-width: 980px) {
 
